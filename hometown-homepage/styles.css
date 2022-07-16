@@ -24,7 +24,7 @@ p, h1 {
     background-image: url("./images/torshov.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-   
+    height: 343px;
     display: flex;
 }
 
