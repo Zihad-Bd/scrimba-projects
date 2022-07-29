@@ -84,7 +84,7 @@ h2 {
     height: 20px;
 }
 
-.heart:hover, .heart:active {
+.icon:hover {
     background-color: lightgray;
 }
 

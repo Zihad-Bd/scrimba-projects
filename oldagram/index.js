@@ -42,7 +42,7 @@ for (let i = 0; i < posts.length; ++i) {
                                 </header>
                                 <img src="${posts[i].post}" alt="${posts[i].name} oldagram" id="person-${i + 1}-img">
                                 <div class="icons">
-                                    <img src="images/icon-heart.png" alt="heart icon" class="icon heart" id="person-${i + 1}-heart">
+                                    <img src="images/icon-heart.png" alt="heart icon" class="icon" id="person-${i + 1}-heart">
                                     <img src="images/icon-comment.png" alt="comment icon" class="icon">
                                     <img src="images/icon-dm.png" alt="dm icon" class="icon">
                                 </div>
