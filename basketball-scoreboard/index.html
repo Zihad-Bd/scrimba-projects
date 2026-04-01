@@ -1,0 +1,56 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="sub-container">
+                <div class="scoreboard-section">
+                    <h3 class="header">HOME</h3>
+                    <div class="scoreboard-display" id="home-display">
+                        <p class="score" id="home">0</p>
+                    </div>
+                    <div class="increment-button-section">
+                        <button class="increment-button" onclick=
+                        "IncrementButtonClicked('home', 1)">
+                            +1
+                        </button>
+                        <button class="increment-button" onclick=
+                        "IncrementButtonClicked('home', 2)">
+                            +2
+                        </button>
+                        <button class="increment-button" onclick=
+                        "IncrementButtonClicked('home', 3)">
+                            +3
+                        </button>
+                    </div>
+                </div>
+                <div class="scoreboard-section">
+                    <h3 class="header">GUEST</h3>
+                    <div class="scoreboard-display" id="guest-display">
+                        <p class="score" id="guest">0</p>
+                    </div>
+                    <div class="increment-button-section">
+                        <button class="increment-button" onclick=
+                        "IncrementButtonClicked('guest', 1)">
+                            +1
+                        </button>
+                        <button class="increment-button" onclick=
+                        "IncrementButtonClicked('guest', 2)">
+                            +2
+                        </button>
+                        <button class="increment-button" onclick=
+                        "IncrementButtonClicked('guest', 3)">
+                            +3
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <button id="new-game-button" class="header" onclick=
+            "newGameClicked()">
+                New Game
+            </button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

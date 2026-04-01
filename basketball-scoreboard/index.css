@@ -1,0 +1,92 @@
+@font-face {
+    font-family: CursedTimerULiL;
+    src: url(./Fonts/CursedTimerULiL.ttf);
+}
+
+body, h3, p {
+    margin: 0;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1B244A;
+}
+
+#sub-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 68px;
+    width: 90%;
+}
+
+.header {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.scoreboard-display {
+    background: #080001;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.score {
+    font-family: 'CursedTimerULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.increment-button-section {
+    display: flex;
+    gap: 9px;
+}
+
+.increment-button {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 9px 9px;
+    font-family: 'CursedTimerULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+    background-color: transparent;  
+    cursor: pointer;
+}
+
+.increment-button:hover {
+    background-color: navy;
+}
+
+.scoreboard-section {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+#new-game-button {
+    width: 70%;
+    margin-top: 25px;
+    color: blue;
+    line-height: unset;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#new-game-button:hover {
+    background-color: #FFFFF0;
+}
